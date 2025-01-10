@@ -1,0 +1,504 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Garamond', serif;
+    background-color: #f2d8cd; /* Beige background */
+    color: #2A070E; /* Dark brown text */
+    line-height: 1.8; /* Increased line height for better readability */
+    font-size: 1.1rem; /* Slightly larger font size */
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Garamond', serif;
+    color: #2A070E; /* Dark brown */
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2A070E;
+}
+
+.navbar-brand {
+    font-family: 'Georgia', serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f2d8cd; 
+    letter-spacing: 1px;
+}
+.navbar-brand:hover{
+    color: #f2d8cd;
+}
+.navbar-nav .nav-link {
+    color: #f2d8cd; 
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #2A070E; 
+    background-color: #f2d8cd; 
+    border-radius: 5px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hero Section */
+.bg-light {
+    background-color: #f2d8cd !important; /* Beige */
+}
+
+.text-center h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2A070E; /* Dark brown */
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+.text-center p {
+    font-size: 1.2rem;
+    color: #2A070E; /* Dark brown */
+    line-height: 1.6;
+}
+
+/* Card Section */
+.card {
+    border: none;
+    border-radius: 10px;
+    background-color: #2A070E; /* Dark brown background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    font-weight: 600; /* Bold title for better emphasis */
+    color: #f2d8cd; /* Beige text */
+    line-height: 1.3;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    color: #f2d8cd !important; /* Beige text */
+    line-height: 1.5;
+}
+.price{
+    font-size: 1.2rem;
+    color: #f2d8cd !important; /* Beige text */
+    line-height: 1.5;
+}
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Button Styling */
+button {
+    background-color:#2A070E; /* Dark brown */
+    color: #f2d8cd; /* Beige */
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #f2d8cd; /* Beige */
+    color: #2A070E; /* Dark brown */
+}
+
+/* Footer */
+footer {
+    background-color: #f2d8cd; /* Beige */
+    color: #2A070E; /* Dark brown */
+    padding: 3rem 0;
+    text-align: center;
+    border-top: 1px solid #2A070E;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Form Section */
+.form-label {
+    font-weight: normal;
+    color: #2A070E; /* Dark brown */
+}
+
+.form-control {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #2A070E; /* Dark brown */
+    background-color: #f2d8cd; /* Beige */
+    line-height: 1.5;
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+button[type="submit"] {
+    background-color: #2A070E; /* Dark brown */
+    color: #f2d8cd; /* Beige */
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #f2d8cd; /* Beige */
+    color: #2A070E; /* Dark brown */
+}
+
+/* Containers */
+
+.container.my-5 {
+    background-color: #2A070E; 
+    color: #f2d8cd; 
+    padding: 40px 15px; 
+    border-radius: 10px;
+}
+
+.container.my-5 h2, .container.my-5 h3 {
+    color: #f2d8cd; 
+}
+
+.container.my-5 p {
+    color: #f2d8cd; 
+}
+
+h2 {
+    font-family: 'Garamond', serif;
+    font-weight: normal;
+    color: #2A070E; /* Dark brown */
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: #2A070E; /* Dark brown */
+    line-height: 1.5;
+}
+
+/* Location Section */
+.row {
+    margin-bottom: 40px;
+}
+
+/* Menu Page */
+.menu-section {
+    padding: 40px 0;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #2A070E; /* Dark brown */
+}
+
+.menu-item h5 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #2A070E; /* Dark brown */
+    line-height: 1.4;
+}
+
+.menu-item p {
+    font-size: 1.2rem;
+    color: #2A070E; /* Dark brown */
+    line-height: 1.5;
+}
+
+/* About Page */
+.about-section {
+    padding: 60px 0;
+}
+
+.about-section h2 {
+    font-size: 2.2rem;
+    color: #f2d8cd;
+    margin-bottom: 30px;
+}
+
+.about-section p {
+    font-size: 1.3rem;
+    color: #f2d8cd; 
+    line-height: 1.7;
+}
+
+.about-team img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.about-team {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about-team h5 {
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: #f2d8cd ;
+}
+
+/* About Us Page Image */
+.img-fluid {
+    width: 75%;
+    height: 75%;
+    object-fit: cover;
+    border: 5px solid #f2d8cd; /* Dark brown border */
+}
+
+/* Our Values Section */
+.our-values {
+    background-color: #2A070E; /* Dark brown */
+    color: #f2d8cd; /* Beige text */
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+
+.our-values h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.our-values p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Contact Us and Visit Us Section */
+.contact-visit-section {
+    background-color: #2A070E; /* Dark brown */
+    color: #f2d8cd; /* Beige text */
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.contact-visit-section h2 {
+    font-size: 2.2rem;
+    color: #f2d8cd;
+    margin-bottom: 30px;
+}
+
+.contact-visit-section p {
+    font-size: 1.3rem;
+    color: #f2d8cd;
+    line-height: 1.7;
+}
+.form-label{
+    color: #f2d8cd;
+}
+
+/* Our Story Section */
+.our-story-section {
+    background-color: #2A070E; /* Dark brown */
+    color: #f2d8cd; /* Beige text */
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.our-story-section h2 {
+    font-size: 2.2rem;
+    color: #f2d8cd;
+    margin-bottom: 30px;
+}
+
+.our-story-section p {
+    font-size: 1.3rem;
+    color: #f2d8cd;
+    line-height: 1.7;
+}
+
+/* Fixed Size Carousel */
+.carousel-inner {
+    width: 100%;
+    height: 400px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Small Screens (Mobile Portrait) */
+@media (max-width: 576px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .text-center h1 {
+        font-size: 1.8rem;
+    }
+
+    .text-center p {
+        font-size: 1rem;
+    }
+
+    .form-control, .form-label {
+        font-size: 1rem;
+    }
+
+    .menu-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-section p {
+        font-size: 1rem;
+    }
+
+    .container.my-5 {
+        padding: 30px 10px;
+    }
+}
+
+/* Medium Screens (Mobile Landscape, Tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .text-center h1 {
+        font-size: 2.2rem;
+    }
+
+    .card {
+        margin-bottom: 25px;
+    }
+
+    .about-section h2 {
+        font-size: 2rem;
+    }
+
+    .about-section p {
+        font-size: 1.2rem;
+    }
+
+    .menu-item {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container.my-5 {
+        padding: 35px 15px;
+    }
+}
+
+/* Large Screens (Laptops, Desktops) */
+@media (min-width: 769px) and (max-width: 1200px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .text-center h1 {
+        font-size: 2.5rem;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .about-section h2 {
+        font-size: 2.2rem;
+    }
+
+    .about-section p {
+        font-size: 1.3rem;
+    }
+
+    .menu-item {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container.my-5 {
+        padding: 40px 20px;
+    }
+}
+
+/* Extra Large Screens (Desktops) */
+@media (min-width: 1201px) {
+    .navbar-nav {
+        text-align: left;
+    }
+
+    .text-center h1 {
+        font-size: 3rem;
+    }
+
+    .card {
+        margin-bottom: 40px;
+    }
+
+    .about-section h2 {
+        font-size: 2.5rem;
+    }
+
+    .about-section p {
+        font-size: 1.5rem;
+    }
+
+    .menu-item {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container.my-5 {
+        padding: 50px 30px;
+    }
+}
